@@ -42,7 +42,7 @@ if (bandera):
     if a == b == c:
         print("El triangulo es equilatero")
 
-    elif a==b or a==c:
+    elif a==b or a==c or c==b:
 
         print("El triangulo es isoceles")
     elif a!=b!=c:
